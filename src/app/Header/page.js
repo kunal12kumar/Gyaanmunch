@@ -6,7 +6,7 @@ export default function Header() {
 
     return (
 
-        <div className="navbar bg-[#5353ae] cursor-pointer shadow-sm">
+        <div className="navbar bg-[linear-gradient(to_right,_#000510_0%,_#001624_50%,_#000510_100%)]  text-white cursor-pointer shadow-sm">
             <div className="navbar-start">
                 <div className="dropdown">
                     <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
