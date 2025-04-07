@@ -2,9 +2,9 @@
 import React from "react";
 import { BackgroundBeamsWithCollision } from "@/components/ui/background-beams-with-collision";
 import ColourfulText from "@/components/ui/colourful-text";
-import { Feaaturescard } from "./box/page";
+import Feaaturescard  from "./box/page";
 
-export function HowitWorkspage() {
+export default function HowitWorkspage() {
   return (
     <BackgroundBeamsWithCollision>
       <div className=" min-h-screen flex 

@@ -1,4 +1,6 @@
 "use client"
+import { Link2Icon } from "lucide-react"
+import Link from "next/link"
 import React from "react"
 
 
@@ -15,7 +17,7 @@ export default function Header() {
                     <ul
                         tabIndex={0}
                         className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
-                        <li>Features</li>
+                      <Link href="/featurespage">  <li>Features</li> </Link>
                         <li>
                             Create Quiz
                         </li>
@@ -23,16 +25,16 @@ export default function Header() {
                         <li>How It works</li>
                     </ul>
                 </div>
-                <a className="px-2  text-2xl">GyanManch</a>
+               <Link href="/"> <div className="px-2  text-2xl">GyanManch</div> </Link>
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal flex gap-8 text-[18px] px-1">
-                    <li>Features</li>
-                    <li>
+                 <Link href="/landingpage/Featurespage">  <li>Features</li> </Link> 
+                   <Link href="/Quizesroom/CreateQuiz"> <li>
                         Create Quiz
-                    </li>
+                    </li> </Link>
                     <li>Join Quiz</li>
-                    <li>How It works</li>
+                   <Link href="/landingpage/HowItWork"> <li>How It works</li> </Link>
                 </ul>
             </div>
             <div className="navbar-end">
