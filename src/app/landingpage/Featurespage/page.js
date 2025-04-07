@@ -1,3 +1,4 @@
+"use client"
 import React from "react";
 import { BackgroundBeamsWithCollision } from "@/components/ui/background-beams-with-collision";
 import ColourfulText from "@/components/ui/colourful-text";
