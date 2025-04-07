@@ -7,7 +7,7 @@ export function Feaaturescard() {
 
 
     return (
-      <div className="w-full py-16 px-4">
+      <div className="w-full h-full py-16 px-4">
   
         
   

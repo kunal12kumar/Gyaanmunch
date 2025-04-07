@@ -9,7 +9,7 @@ export function HowitWorkspage() {
     <BackgroundBeamsWithCollision>
       <div className=" min-h-screen flex 
        gap-6 flex-col  justify-center items-center">
-        <h1 className="text-7xl font-sans"><ColourfulText text="How It Works"></ColourfulText></h1>
+        <h1 className="sm:text-7xl text-4xl mt-8 font-sans text-center"><ColourfulText text="How It Works"></ColourfulText></h1>
  
         <Feaaturescard></Feaaturescard>
 
