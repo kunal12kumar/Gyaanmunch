@@ -26,9 +26,7 @@ export function Homepage() {
 
         </button>
 
-        <button className="w-[100%] px-8 text-center text-xl text-bold box-border border-1 border-[#4a4ae3] h-[40px] rounded-2xl bg-[#3b3bca] ">Explore Quizes
-
-        </button><button className="w-[100%] px-8 text-center text-xl text-bold box-border border-1 border-[#4a4ae3] h-[40px] rounded-2xl bg-[#3b3bca] ">Join Quizes
+        <button className="w-[100%] px-8 text-center text-xl text-bold box-border border-1 border-[#4a4ae3] h-[40px] rounded-2xl bg-[#3b3bca] ">Join Quizes
 
         </button>
 
