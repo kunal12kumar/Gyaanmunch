@@ -118,7 +118,7 @@ export default function LoginPage({ toggleView }) {
       {/* Switch to signup */}
       <div className="text-center mt-6">
         <p className="text-gray-600">
-          Don't have an account?
+          Don&apos;t have an account?
           <button
             onClick={toggleView}
             className="ml-2 text-indigo-600 hover:text-indigo-800 font-medium flex items-center justify-center mx-auto mt-2"

@@ -53,7 +53,7 @@ export default function SuccessConfirmationPage() {
 
         {/* What's Next */}
         <div className="bg-gray-800 rounded-lg p-6 mb-10">
-          <h3 className="text-xl font-semibold mb-4">What's Next?</h3>
+          <h3 className="text-xl font-semibold mb-4">What&apos;s Next?</h3>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             <div className="bg-gray-700 rounded-lg p-4">
               <div className="flex items-center mb-3">
