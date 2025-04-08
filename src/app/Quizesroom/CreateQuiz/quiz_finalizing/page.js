@@ -1,11 +1,8 @@
-// in this we will do all work of quiz finalizing of code 
-
 "use client"
 
-import React , {useState} from 'react';
+import React, { useState } from 'react';
 import { CheckCircle, Share2, Copy, Mail, Download, Link as LinkIcon } from 'lucide-react';
 import Link from 'next/link';
-
 
 export default function QuizFinalizationPage() {
   const [copied, setCopied] = useState(false);
@@ -22,7 +19,6 @@ export default function QuizFinalizationPage() {
       <div className="max-w-6xl mx-auto p-6">
         {/* Header */}
       
-
         {/* Main Content */}
         <div className="mb-10">
           <h2 className="text-2xl font-bold text-center mb-2">Share Your Quiz</h2>
@@ -120,7 +116,7 @@ export default function QuizFinalizationPage() {
               <div className="flex">
                 <div className="relative flex-grow">
                   <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
-                    <Link size={16} className="text-gray-400" />
+                    <LinkIcon size={16} className="text-gray-400" />
                   </div>
                   <input
                     type="text"
@@ -209,9 +205,11 @@ export default function QuizFinalizationPage() {
           <button className="bg-gray-700 text-white px-6 py-2 rounded-md">
             Back
           </button>
-      <Link href="/Quizesroom/CreateQuiz/success_confir"> <button className="bg-green-600 text-white px-6 py-2 rounded-md">
-            Go to Dashboard
-          </button>  </Link> 
+          <Link href="/Quizesroom/CreateQuiz/success_confir">
+            <button className="bg-green-600 text-white px-6 py-2 rounded-md">
+              Go to Dashboard
+            </button>
+          </Link>
         </div>
       </div>
     </div>
