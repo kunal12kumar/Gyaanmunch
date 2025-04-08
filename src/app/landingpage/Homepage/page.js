@@ -22,14 +22,15 @@ export function Homepage() {
       <h1 className="text-xl w-[80%] font-sans text-white text-center">Upload PDF files or text and let our AI generate intelligent quiz questions. Learn , test and share knowledge with friends and colleagues</h1>
 
       <div className="flex w-[60%] flex-col sm:flex-row  gap-8">
-        <button className="w-[100%] px-8 text-center text-xl text-bold box-border border-1 border-[#4a4ae3] h-[40px] rounded-2xl bg-[#3b3bca] ">Create Quiz Now
+        <button className="w-[100%] px-8 text-center text-xl cursor-pointer hover:scale-90 text-bold box-border border-1 border-[#4a4ae3] h-[40px] rounded-2xl bg-[#3b3bca] ">Create Quiz Now
 
         </button>
 
-        <button className="w-[100%] px-8 text-center text-xl text-bold box-border border-1 border-[#4a4ae3] h-[40px] rounded-2xl bg-[#3b3bca] ">Join Quizes
+        <button className="w-[100%] px-8 text-center text-xl  hover:scale-90 cursor-pointer text-bold box-border border-1 border-[#4a4ae3] h-[40px] rounded-2xl bg-[#3b3bca] ">Join Quizes
 
         </button>
 
+        
       </div>
 
 

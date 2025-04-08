@@ -16,7 +16,7 @@ export default function Feaaturescard() {
         {boxcontent.map((proj, index) => (
           <div 
             key={index}
-            className="relative flex flex-col items-center justify-center p-8 rounded-3xl text-center h-full" 
+            className="relative flex flex-col  items-center justify-center p-8 rounded-3xl text-center h-full" 
             style={{
               background: "linear-gradient(180deg, #1e1731 0%, #12111a 100%)",
               boxShadow: "0 0 40px rgba(88, 53, 156, 0.3)"
