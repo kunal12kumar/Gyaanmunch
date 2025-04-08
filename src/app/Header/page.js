@@ -37,8 +37,8 @@ export default function Header() {
                    <Link href="/landingpage/HowItWork"> <li>How It works</li> </Link>
                 </ul>
             </div>
-            <div className="navbar-end">
-                <div className="dropdown dropdown-end">
+            <div className="navbar-end ">
+                {/* <div className="dropdown dropdown-end">
                     <div tabIndex={0} role="button" className="btn btn-ghost btn-circle avatar">
                         <div className="w-10 rounded-full">
                             <ima
@@ -58,7 +58,9 @@ export default function Header() {
                         <li><a>Settings</a></li>
                         <li><a>Logout</a></li>
                     </ul>
-                </div>
+                </div> */}
+
+               <Link href="/authentication"> <button className=" cursor-pointer">Sign In</button> </Link>
             </div>
         </div>
 
