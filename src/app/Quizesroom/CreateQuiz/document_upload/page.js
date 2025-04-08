@@ -3,6 +3,7 @@
 "use client"
 import React from "react"
 import { BackgroundBeams } from "@/components/ui/background-beams";
+import Link from "next/link";
 
 export default function UploadSection() {
 
@@ -87,9 +88,9 @@ export default function UploadSection() {
                         <button className="bg-transparent border border-white/20 text-white py-3 px-6 rounded-md text-base cursor-pointer transition-colors duration-300 hover:bg-white/10">
                             Back
                         </button>
-                        <button className="bg-[#4664f6] text-white border-none py-3 px-6 rounded-md text-base cursor-pointer transition-colors duration-300 hover:bg-[#5471fd]">
+                      <Link href="/Quizesroom/CreateQuiz/ques_review_gen">  <button className="bg-[#4664f6] text-white border-none py-3 px-6 rounded-md text-base cursor-pointer transition-colors duration-300 hover:bg-[#5471fd]">
                             Continue
-                        </button>
+                        </button> </Link>
                     </div>
                 </div>
             </div>

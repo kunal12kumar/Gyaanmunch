@@ -2,6 +2,7 @@
 
 import { useState } from 'react';
 import { CheckCircle, Edit, Trash2, Plus, Save } from 'lucide-react';
+import Link from 'next/link';
 
 export default function QuestionReviewPage() {
   const [questions, setQuestions] = useState([
@@ -154,9 +155,9 @@ export default function QuestionReviewPage() {
           <button className="bg-gray-700 text-white px-6 py-2 rounded-md">
             Back
           </button>
-          <button className="bg-blue-600 text-white px-6 py-2 rounded-md">
+         <Link href="/Quizesroom/CreateQuiz/quiz_setting"> <button className="bg-blue-600 cursor-pointer text-white px-6 py-2 rounded-md">
             Continue to Settings
-          </button>
+          </button>  </Link>
         </div>
       </div>
     </div>

@@ -3,6 +3,7 @@
 
 import { useState } from 'react';
 import { CheckCircle, Clock, Users, Shuffle, BarChart } from 'lucide-react';
+import Link from 'next/link';
 
 export default function QuizSettingsConfigurationPage() {
   const [settings, setSettings] = useState({
@@ -209,9 +210,9 @@ export default function QuizSettingsConfigurationPage() {
           <button className="bg-gray-700 text-white px-6 py-2 rounded-md">
             Back
           </button>
-          <button className="bg-blue-600 text-white px-6 py-2 rounded-md">
+         <Link href="/Quizesroom/CreateQuiz/quiz_finalizing"> <button className="bg-blue-600 cursor-pointer text-white px-6 py-2 rounded-md">
             Finalize Quiz
-          </button>
+          </button> </Link>
         </div>
       </div>
     </div>

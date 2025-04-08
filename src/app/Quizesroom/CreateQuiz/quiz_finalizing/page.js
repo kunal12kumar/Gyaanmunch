@@ -3,7 +3,9 @@
 "use client"
 
 import React , {useState} from 'react';
-import { CheckCircle, Share2, Link, Copy, Mail, Download } from 'lucide-react';
+import { CheckCircle, Share2, Copy, Mail, Download, Link as LinkIcon } from 'lucide-react';
+import Link from 'next/link';
+
 
 export default function QuizFinalizationPage() {
   const [copied, setCopied] = useState(false);
@@ -207,9 +209,9 @@ export default function QuizFinalizationPage() {
           <button className="bg-gray-700 text-white px-6 py-2 rounded-md">
             Back
           </button>
-          <button className="bg-green-600 text-white px-6 py-2 rounded-md">
+      <Link href="/Quizesroom/CreateQuiz/success_confir"> <button className="bg-green-600 text-white px-6 py-2 rounded-md">
             Go to Dashboard
-          </button>
+          </button>  </Link> 
         </div>
       </div>
     </div>
